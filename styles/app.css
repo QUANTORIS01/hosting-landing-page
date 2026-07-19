@@ -216,4 +216,85 @@ body {
     font-family: "TTNorms";
 }
 
+.container {
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
 
+.header {
+
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 0;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    margin-right: 2rem;
+}
+
+.nav-logo__img {
+
+}
+
+.menu {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+}
+
+.menu__item {
+
+}
+
+.menu__link {
+    text-decoration: none;
+    color: #081D43;
+    padding: 0 1rem;
+}
+
+.header__link {
+    background-color: #0050CB;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.8rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+/* Project Responsive */
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        max-width: 100%;
+    }
+}

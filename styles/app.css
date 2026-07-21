@@ -389,24 +389,30 @@ body {
     font-family: 'TTNorms Light';
 }
 
+.comments-container {
+    max-width: 65rem;
+    margin: 3.5rem auto 0 auto;
+}
+
 .comments {
-    margin: 3.5rem 0;
     display: flex;
+    justify-content: space-between;
 }
 
 .comment {
     background-color: #fff;
     margin: 1rem;
     border-radius: 0.5rem;
-    text-align: left;
-    padding: 1.2rem;
-}
-
-.comment__content {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 17rem;
+    min-height: 18rem;
+    flex-basis: 20rem;
+}
+
+.comment__content {
+    text-align: left;
+    padding: 1.2rem;
 }
 
 .comment__body {
@@ -432,6 +438,18 @@ body {
 .comment__person {
     color: #000000;
     margin: 0 0 0 0.5rem;
+}
+
+.companies {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.companies__img {
+    display: block;
+    margin: 1rem;
 }
 
 /* Project Responsive */

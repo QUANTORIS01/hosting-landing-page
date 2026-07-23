@@ -480,6 +480,63 @@ body {
     width: 100%;
 }
 
+/* Footer Newsletter */
+
+.newsletter {
+    background-color: #2C57E4;
+    padding: 4.5rem 0;
+    color: #fff;
+}
+
+.newsletter__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.newsletter__text {
+    font-size: 1.6rem;
+}
+
+.newsletter__email {
+    background-color: #fff;
+    flex-basis: 20rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.4rem 0.4rem 0.4rem 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.newsletter__txt {
+    border: none;
+    outline: none;
+}
+
+.newsletter__btn {
+    background-color: #2F5BEA;
+    border: none;
+    outline: none;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+
+/* Footer Copy Right */
+
+.copy-right {
+    color: #6C7890;
+    padding: 1rem 0;
+}
+
+.copy-right__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* Project Responsive */
 
 @media only screen and (max-width: 1200px) {

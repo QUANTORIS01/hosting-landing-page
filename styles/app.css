@@ -255,6 +255,12 @@ body {
     padding: 0 1rem;
 }
 
+.header__icon {
+    display: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+}
+
 .header__link {
     background-color: #0050CB;
     color: #fff;
@@ -560,11 +566,35 @@ body {
     .container {
         max-width: 720px;
     }
+    .header__link {
+        display: none;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .container {
         max-width: 540px;
+    }
+
+    .header__icon {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: -256px;
+        bottom: 0;
+        width: 16rem;
+        flex-direction: column;
+        padding: 2rem 1rem;
+        transition: 0.3s all;
+    }
+
+    .menu__item {
+        margin-bottom: 2rem;
+        font-size: 1.2rem;
     }
 }
 
